@@ -40,8 +40,6 @@ application {
     mainClass = "hu.bme.mit.ase.shingler.similarity.SimilarityApp"
 }
 
-
-
 tasks {
     test {
         useJUnitPlatform()
