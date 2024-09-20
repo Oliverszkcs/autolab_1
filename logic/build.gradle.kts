@@ -1,7 +1,6 @@
 plugins {
     java
     jacoco
-    application
 }
 
 java.toolchain {
@@ -27,7 +26,8 @@ dependencies {
 
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$junitVersion")
 
-    implementation((project(":logic")))
+    implementation(project(":lib"))
+
 }
 
 tasks {
@@ -42,6 +42,3 @@ tasks {
     }
 }
 
-application {
-    mainClass = "hu.bme.mit.ase.shingler.similarity.SimilarityApp"
-}

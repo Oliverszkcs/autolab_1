@@ -1,10 +1,6 @@
 package hu.bme.mit.ase.shingler.similarity;
 
-import hu.bme.mit.ase.shingler.lib.CosineSimilarityComputor;
-import hu.bme.mit.ase.shingler.lib.DocumentSimilarityEstimator;
-import hu.bme.mit.ase.shingler.lib.OccurrenceVectorComputor;
-import hu.bme.mit.ase.shingler.lib.Tokenizer;
-import hu.bme.mit.ase.shingler.lib.VectorMultiplier;
+import hu.bme.mit.ase.shingler.lib.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

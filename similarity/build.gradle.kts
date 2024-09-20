@@ -20,14 +20,15 @@ val junitVersion = "5.10.0"
 dependencies {
     implementation("org.slf4j:slf4j-api:$slf4jVersion")
     implementation("info.picocli:picocli:$picoCliVersion")
+    implementation(project(mapOf("path" to ":lib")))
+    implementation(project(mapOf("path" to ":lib")))
+    implementation(project(mapOf("path" to ":logic")))
 
     runtimeOnly("org.apache.logging.log4j:log4j-slf4j-impl:$log4jVersion")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:$junitVersion")
 
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$junitVersion")
-
-    implementation((project(":logic")))
 }
 
 tasks {

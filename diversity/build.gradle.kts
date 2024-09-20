@@ -20,6 +20,7 @@ val junitVersion = "5.10.0"
 dependencies {
     implementation("org.slf4j:slf4j-api:$slf4jVersion")
     implementation("info.picocli:picocli:$picoCliVersion")
+    implementation(project(mapOf("path" to ":lib")))
 
     runtimeOnly("org.apache.logging.log4j:log4j-slf4j-impl:$log4jVersion")
 
@@ -43,5 +44,5 @@ tasks {
 }
 
 application {
-    mainClass = "hu.bme.mit.ase.shingler.similarity.SimilarityApp"
+    mainClass = "hu.bme.mit.ase.shingler.diversity.DiversityApp"
 }
