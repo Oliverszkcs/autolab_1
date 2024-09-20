@@ -57,10 +57,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "android.gradle.sync.needed": "true",
     "git-widget-placeholder": "practice-2b",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/loxom/Desktop/programmer/autolab/autolab_1/diversity",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Users/loxom/Desktop/programmer/autolab/autolab_1/buildSrc",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
@@ -68,6 +69,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\loxom\Desktop\programmer\autolab\autolab_1\buildSrc" />
       <recent name="C:\Users\loxom\Desktop\programmer\autolab\autolab_1\diversity" />
       <recent name="C:\Users\loxom\Desktop\programmer\autolab\autolab_1\lib" />
       <recent name="C:\Users\loxom\Desktop\programmer\autolab\autolab_1\logic" />

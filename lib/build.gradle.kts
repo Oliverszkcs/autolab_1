@@ -1,7 +1,5 @@
 plugins {
-    java
-    jacoco
-    `java-library`
+    id("hu.bme.mit.ase.shingler.gradle.application")
 }
 
 java.toolchain {
